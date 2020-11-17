@@ -1,0 +1,15 @@
+{
+  "name": "@scm-manager/tsconfig",
+  "version": "2.10.0-SNAPSHOT",
+  "license": "MIT",
+  "description": "TypeScript configuration",
+  "author": "SCM-Team <scm-team@cloudogu.com>",
+  "private": false,
+  "main": "tsconfig.json",
+  "dependencies": {
+    "typescript": "^3.7.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
