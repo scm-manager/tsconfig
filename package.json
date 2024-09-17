@@ -1,7 +1,7 @@
 {
   "name": "@scm-manager/tsconfig",
   "version": "2.13.0",
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "description": "TypeScript configuration",
   "author": "SCM-Team <scm-team@cloudogu.com>",
   "private": false,
