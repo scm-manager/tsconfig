@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Push to GitHub') {
           when {
-            branch pattern: 'release/*', comparator: 'GLOB'
+            branch pattern: 'main', comparator: 'GLOB'
     	    expression { return isBuildSuccess() }
           }
           steps {
